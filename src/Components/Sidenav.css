@@ -1,0 +1,89 @@
+.sidenav {
+  width: 250px;
+  height: 70vh;
+  background-color: #3f3f3f;
+  color: #fff; 
+  border: 1px solid #333; 
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+  transition: width 0.3s;
+}
+
+.sidenav.collapsed {
+  width: 60px;
+}
+
+.sidenav a,
+.sidenav .menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #fff; /* White text */
+  text-decoration: none;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.sidenav a:hover,
+.sidenav .menu-item:hover,
+.sidenav .submenu div:hover { /* Added submenu div hover */
+  background-color: #00c3ff; /* Darker hover effect */
+  border-radius: 20px;
+  cursor: pointer; /* Added cursor pointer */
+}
+
+.sidenav .icon {
+  margin-right: 10px;
+  color: #fff; /* White icons */
+}
+
+.sidenav.collapsed .icon {
+  margin-right: 0;
+}
+
+.sidenav .submenu {
+  padding-left: 20px;
+  background-color: #3f3f3f; /* Slightly lighter submenu */
+}
+
+.sidenav .submenu a,
+.sidenav .submenu div {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+.sidenav .sign-out {
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.sidenav span {
+  display: inline-block;
+  transition: opacity 0.3s, width 0.3s;
+}
+
+.sidenav.collapsed span {
+  opacity: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.icon-arrow {
+  margin-left: 30px;
+}
+
+.icon-arrow-setting {
+  margin-left: 100px;
+}
+
+.toggle-button {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: #fff; /* White toggle icon */
+}

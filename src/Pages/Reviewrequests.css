@@ -1,0 +1,105 @@
+.review-requests-container {
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 75%;
+  }
+  
+  .review-requests-container h2 {
+    margin-bottom: 20px;
+    color: #4a4a4a;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .reply-button {
+    background: #4a90e2;
+    margin-bottom: 5px;
+  }
+  
+  .reply-button:hover {
+    background: #357abd;
+  }
+  
+  .appointment-button {
+    background: #27ae60;
+  }
+  
+  .appointment-button:hover {
+    background: #219150;
+  }
+  
+  .reply-form-container, .appointment-form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .reply-form-container h3, .appointment-form-container h3 {
+    margin-bottom: 10px;
+    color: #4a4a4a;
+  }
+  
+  .reply-form-container textarea, .appointment-form-container input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  
+  .reply-form-buttons, .appointment-form-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .send-reply-button, .send-appointment-button {
+    background: #4a90e2;
+  }
+  
+  .send-reply-button:hover, .send-appointment-button:hover {
+    background: #357abd;
+  }
+  
+  .cancel-reply-button, .cancel-appointment-button {
+    background: #e74c3c;
+    margin-left: 10px;
+  }
+  
+  .cancel-reply-button:hover, .cancel-appointment-button:hover {
+    background: #c0392b;
+  }
+  
